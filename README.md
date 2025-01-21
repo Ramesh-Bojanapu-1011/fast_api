@@ -5,14 +5,17 @@
 To run this project
 
 1. Install the required packages by running `pip install -r requirements.txt` in your terminal
-2. Run the project by running in the format
+2. Run the project by running in the format like
+   `python -m uvicorn File_name:object_name --reload` or `uvicorn File_name:object_name --reload`
 
    ```bash
-   `python -m uvicorn File_name:object_name --reload` or `uvicorn File_name:object_name --reload`
+   `uvicorn main:app --reload`
    ```
 
+   Or
+
    ```bash
-   `uvicorn main:app --reload` or `python -m uvicorn main:app --reload`
+   `python -m uvicorn main:app --reload`
    ```
 
    in your terminal
