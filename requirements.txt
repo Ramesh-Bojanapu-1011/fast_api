@@ -1,3 +1,5 @@
 fastapi
 uvicorn
 requests
+youtube_search 
+googlesearch-python
