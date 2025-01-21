@@ -9,13 +9,13 @@ To run this project
    `python -m uvicorn File_name:object_name --reload` or `uvicorn File_name:object_name --reload`
 
    ```bash
-   `uvicorn main:app --reload`
+   uvicorn main:app --reload
    ```
 
    Or
 
    ```bash
-   `python -m uvicorn main:app --reload`
+   python -m uvicorn main:app --reload
    ```
 
    in your terminal
