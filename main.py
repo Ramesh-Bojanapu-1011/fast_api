@@ -1,6 +1,6 @@
 from typing import Optional
 
-from fastapi import FastAPI, Request  # noqa: F401
+from fastapi import FastAPI, Request  
 from googlesearch import search
 from pydantic import BaseModel
 from youtube_search import YoutubeSearch
