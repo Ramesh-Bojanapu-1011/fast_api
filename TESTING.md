@@ -36,7 +36,7 @@ python -m pytest test_main.py::TestSearchEndpoints -v
 1. **Development**: `python dev.py serve` (start server)
 2. **Quick Test**: `python dev.py test-basic` (verify functionality)
 3. **Full Test**: `python dev.py test-pytest` (comprehensive validation)
-4. **Documentation**: Visit <http://127.0.0.1:8001/docs>
+4. **Documentation**: Visit <http://127.0.0.1:8000/docs>
 
 ### ✅ **Current Test Status**
 

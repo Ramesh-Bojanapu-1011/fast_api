@@ -202,20 +202,20 @@ uvicorn main:app --reload --port 8001
 **Health Check:**
 
 ```bash
-curl http://127.0.0.1:8001/
-curl http://127.0.0.1:8001/health
+curl http://127.0.0.1:8000/
+curl http://127.0.0.1:8000/health
 ```
 
 **Hello Endpoint:**
 
 ```bash
-curl http://127.0.0.1:8001/hello/YourName
+curl http://127.0.0.1:8000/hello/YourName
 ```
 
 **YouTube Search:**
 
 ```bash
-curl -X POST "http://127.0.0.1:8001/find/youtube/videos" \
+curl -X POST "http://127.0.0.1:8000/find/youtube/videos" \
      -H "Content-Type: application/json" \
      -d '{"search_text": "Python tutorial", "num_results": 3}'
 ```
@@ -223,7 +223,7 @@ curl -X POST "http://127.0.0.1:8001/find/youtube/videos" \
 **Actor Search:**
 
 ```bash
-curl -X POST "http://127.0.0.1:8001/find/person/wiki_url" \
+curl -X POST "http://127.0.0.1:8000/find/person/wiki_url" \
      -H "Content-Type: application/json" \
      -d '{"name": "Chiranjeevi", "craft": "actor"}'
 ```
@@ -233,9 +233,9 @@ curl -X POST "http://127.0.0.1:8001/find/person/wiki_url" \
 Use the automatic API documentation for interactive testing:
 
 1. Start the server: `python dev.py serve`
-2. Open browser: <http://127.0.0.1:8001/docs>
+2. Open browser: <http://127.0.0.1:8000/docs>
 3. Try out endpoints directly from the Swagger UI
-4. Alternative docs: <http://127.0.0.1:8001/redoc>
+4. Alternative docs: <http://127.0.0.1:8000/redoc>
 
 #### **6. Test Coverage Summary**
 

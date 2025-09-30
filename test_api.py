@@ -5,7 +5,7 @@ Simple test script to verify the FastAPI endpoints are working correctly.
 
 import requests
 
-BASE_URL = "http://127.0.0.1:8001/"
+BASE_URL = "http://127.0.0.1:8000/"
 
 def test_health_endpoint():
     """Test the basic health endpoint"""
